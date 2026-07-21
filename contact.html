@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Saheed Mohamed — email, LinkedIn, GitHub, and message form.">
+  <title>Saheed Mohamed | Contact</title>
+  <link rel="icon" href="./img/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/contact.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html">
+        <img src="./img/logo.png" alt="Saheed Mohamed home" width="48" height="48" class="brand-icon">
+        <span>Saheed Mohamed</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="primary-nav" aria-label="Primary">
+        <ul class="nav-web">
+          <li><a class="nav-link" href="./index.html">Home</a></li>
+          <li><a class="nav-link" href="./about.html">About</a></li>
+          <li><a class="nav-link" href="./work.html">Work</a></li>
+          <li><a class="nav-link is-active" href="./contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="web-banner" aria-hidden="true"></div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero contact-hero">
+      <div class="container reveal">
+        <p class="eyebrow">Contact</p>
+        <h1>Your friendly neighborhood reply</h1>
+        <p class="lead">Questions, collaborations, or internship opportunities — reach out anytime.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <aside class="contact-details reveal">
+          <figure class="contact-visual">
+            <img class="contact-meme" src="./img/spidermen-pointing.png" alt="Three Spider-Men pointing at each other — let's connect" width="480" height="270">
+            <figcaption class="contact-meme-caption">Hey, you should connect with Saheed!</figcaption>
+          </figure>
+
+          <h2>Direct details</h2>
+          <ul class="contact-list">
+            <li>
+              <img class="contact-icon" src="./img/icon-email.svg" alt="" width="32" height="32">
+              <span class="contact-label">Email</span>
+              <a href="mailto:saheedsm2@gmail.com">saheedsm2@gmail.com</a>
+            </li>
+            <li>
+              <img class="contact-icon" src="./img/icon-phone.svg" alt="" width="32" height="32">
+              <span class="contact-label">Phone</span>
+              <a href="tel:+5977193093">(+597) 719-3093</a>
+            </li>
+            <li>
+              <img class="contact-icon" src="./img/icon-location.svg" alt="" width="32" height="32">
+              <span class="contact-label">Location</span>
+              <p>Randjansingweg 33, Paramaribo, Suriname</p>
+            </li>
+          </ul>
+
+          <h2>Social &amp; code</h2>
+          <div class="social-row">
+            <a class="social-link" href="https://www.linkedin.com/in/saheed-m-2742bb38b" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="social-link github-btn" href="https://github.com/Distant-Programmer" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </aside>
+
+        <div class="contact-form-wrap reveal">
+          <h2>Send a message</h2>
+          <form id="contact-form" class="contact-form" action="mailto:saheedsm2@gmail.com" method="post" enctype="text/plain">
+            <div class="field">
+              <label for="name">Your name</label>
+              <input type="text" id="name" name="name" required autocomplete="name">
+            </div>
+            <div class="field">
+              <label for="email">Your email</label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Send message</button>
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-brand">
+        <img src="./img/logo.svg" alt="" width="28" height="28" class="footer-logo" aria-hidden="true">
+        <span>&copy; <span id="year"></span> Saheed Mohamed ·</span>
+      </p>
+      <nav aria-label="Footer">
+        <a href="./index.html">Home</a><a href="./about.html">About</a><a href="./work.html">Work</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+  <script src="./js/contact.js"></script>
+</body>
+</html>
