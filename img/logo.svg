@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="SM spider emblem">
+  <defs>
+    <linearGradient id="smGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e62429"/>
+      <stop offset="50%" stop-color="#0066b2"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="54" fill="#0a0a0a" stroke="url(#smGrad)" stroke-width="4"/>
+  <path d="M60 18 L60 102 M18 60 L102 60 M28 28 L92 92 M92 28 L28 92" stroke="#ffffff" stroke-width="2" opacity="0.35"/>
+  <path d="M60 24 C45 40 38 52 38 60 C38 72 48 82 60 82 C72 82 82 72 82 60 C82 52 75 40 60 24Z" fill="url(#smGrad)"/>
+  <text x="60" y="68" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="22" fill="#fff">SM</text>
+</svg>
