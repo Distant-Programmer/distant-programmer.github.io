@@ -1,0 +1,139 @@
+.contact-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  gap: 2rem;
+  align-items: start;
+}
+
+.contact-details {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  border: 3px solid var(--comic-black);
+  box-shadow: var(--shadow-comic);
+}
+
+.contact-visual {
+  margin: 0 0 1.5rem;
+}
+
+.contact-meme {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  border: 4px solid var(--comic-black);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-comic);
+}
+
+.contact-meme-caption {
+  text-align: center;
+  font-family: var(--font-display);
+  letter-spacing: 0.08em;
+  color: var(--spider-red);
+  margin-top: 0.75rem;
+  font-size: 1rem;
+}
+
+.contact-details h2,
+.contact-form-wrap h2 {
+  font-family: var(--font-display);
+  letter-spacing: 0.06em;
+  margin-top: 0;
+  color: var(--spider-blue);
+}
+
+.contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-list li + li {
+  margin-top: 1rem;
+}
+
+.contact-icon {
+  margin-bottom: 0.35rem;
+}
+
+.contact-label {
+  display: block;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  color: var(--spider-red);
+  margin-bottom: 0.15rem;
+}
+
+.contact-list a {
+  font-weight: 700;
+  word-break: break-word;
+}
+
+.contact-form-wrap {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  border: 3px solid var(--comic-black);
+  box-shadow: var(--shadow-comic);
+}
+
+.contact-form .field {
+  margin-bottom: 1rem;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  border-radius: 8px;
+  border: 2px solid var(--comic-black);
+  font: inherit;
+  background: var(--comic-white);
+  color: var(--gray-900);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--spider-blue);
+}
+
+.form-status {
+  min-height: 1.25rem;
+  margin: 0.75rem 0 0;
+  font-weight: 600;
+  color: var(--spider-blue);
+}
+
+.form-status.is-error {
+  color: var(--spider-red);
+}
+
+.form-status.is-success {
+  color: #047857;
+}
+
+.contact-pulse {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-details,
+  .contact-form-wrap {
+    padding: 1.15rem;
+  }
+}
